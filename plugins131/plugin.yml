@@ -1,0 +1,14 @@
+name: 1cool
+version: 1.0.0
+api: [3.0.0,]
+main: 1cool\Main
+
+commands:
+   test:
+     description: Ich bin cool
+     permission: ichsagdubistcool.cmd
+
+     permissions:
+      ichsagdubistcool.cmd:
+        default: true
+        description: Darf /ichsagdubistcool benutzen
